@@ -86,7 +86,7 @@ public class Test {
             e.printStackTrace();
         } finally {
            
-           // driver.quit();
+           driver.close();
         }
     }
 }
